@@ -164,27 +164,37 @@ function SideNav({ history }) {
           </AutoColumn>
           <AutoColumn gap="0.5rem" style={{ marginLeft: '.75rem', marginBottom: '4rem' }}>
             <HeaderText>
-              <Link href="https://uniswap.org" target="_blank">
-                Uniswap.org
+              <Link href="https://swap.easybake.finance" target="_blank">
+                EasyBake
               </Link>
             </HeaderText>
-            <HeaderText>
-              <Link href="https://v1.uniswap.info" target="_blank">
-                V1 Analytics
-              </Link>
-            </HeaderText>
-            <HeaderText>
-              <Link href="https://uniswap.org/docs/v2" target="_blank">
+            {/* <HeaderText>
+              <Link href="https://docs.easybake.finance" target="_blank">
                 Docs
               </Link>
+            </HeaderText> */}
+            <HeaderText>
+              <Link href="https://t.me/EasyBakeSwap" target="_blank">
+                Telegram
+              </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="https://discord.com/invite/FCfyBSbCU5" target="_blank">
+              <Link href="https://t.me/EasyBakeNews" target="_blank">
+                Updates
+              </Link>
+            </HeaderText>
+            <HeaderText>
+              <Link href="https://easybake.medium.com" target="_blank">
+                Medium
+              </Link>
+            </HeaderText>
+            <HeaderText>
+              <Link href="https://discord.gg/JkMm2hBEym" target="_blank">
                 Discord
               </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="https://twitter.com/UniswapProtocol" target="_blank">
+              <Link href="https://twitter.com/EasyBakeSwap" target="_blank">
                 Twitter
               </Link>
             </HeaderText>
